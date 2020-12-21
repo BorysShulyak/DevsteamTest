@@ -27,7 +27,6 @@ const renderRaw = ({item}) => {
 export const Gallery = () => {
     const dispatch = useDispatch()
     const images = useSelector(getImagesInfo)
-    console.log(images.length)
     const currentPage = useSelector(getCurrentPage)
 
     const handleLoadMore = () => {
